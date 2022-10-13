@@ -1,0 +1,44 @@
+.explore {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.container.fluid {
+    display: grid;
+    padding-bottom: 40%;
+}
+
+.container{
+    margin-right: auto;
+    width: fit-content;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: inline-block; 
+    background-color: whitesmoke;   
+}
+
+#payments-image{
+    background-color: blue;
+    color: white;
+    margin-left: 50%;
+}
+
+.card {
+    flex-direction:row;
+    border-style: groove;
+    border-color: blue;
+    background-color: blue;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.card img{
+    width: 60%;
+}
