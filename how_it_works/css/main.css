@@ -1,0 +1,70 @@
+.header-nav{
+    padding-top: 50px;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: black
+}
+
+.row-top-section{
+    padding-top: 50px;
+}
+
+.img-logo-header-nav{
+    width: 150px;
+}
+
+#img-top-right{
+    width: 400px;
+}
+
+#text-large-top-section{
+    font-size: 300%;
+    font-weight: 700;
+}
+
+#text-medium-top-section{
+    font-size: 150%;
+    font-weight: 700;
+}
+
+#text-gray-top-section{
+    color: gray;
+}
+
+#text-small-top-section{
+    font-size: 75%;
+}
+
+.dot-blue{
+    height: 5px;
+    width: 5px;
+    background-color: rgb(8,80,248);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.row-footer{
+    color: white;
+    background-color: rgb(8,80,248);
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+#text-large-footer{
+    font-size: 150%;
+    font-weight: 700;
+}
+
+#text-small-footer{
+    font-size: 75%;
+}
+
+.dot-white{
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
