@@ -11,11 +11,81 @@
 <title>Landing Page</title>
 </head>
 <body>
+
+    <!-- Header Nav -->
+    <div class="container-fluid header-nav">
+        <div class="row align-items-center">
+            <div class="col-2">
+                <span><a href="#"><img src="./img/Logo.png" class="img-logo-header-nav"></a></span>
+            </div>
+            <div class="col">
+                <span><a href="#">Home</a></span>
+            </div>
+            <div class="col">
+                <span><a href="#">Features</a></span>
+            </div>
+            <div class="col">
+                <span><a href="#">Pricing</a></span>
+            </div>
+            <div class="col">
+                <span><a href="#">How It Works</a></span>
+            </div>
+            <div class="col">            
+                <span><a href="#">Support</a></span>
+            </div>
+            <div class="col">
+                <span><a href="#"><button type="button" class="btn btn-outline-primary">Sign In</button></a></span>
+            </div>
+            <div class="col">            
+                <span><a href="#"><button type="button" class="btn btn-primary">Try It Free</button></a></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top Section -->
+    <div class="container-fluid">
+        <div class="row row-top-section">
+            <div class="col-8">
+                <p id="text-large-top-section">Focus on</p>
+                <p id="text-large-top-section">Your Business</p>
+                <p id="text-medium-top-section">Let Us Handle Everything Else</p>
+                <p id="text-gray-top-section">Subscription Billing, powered with revenue retention tools and a</p>
+                <p id="text-gray-top-section">seamless customer experience - without the technical hurdles.</p>
+                <div class="row">
+                    <div class="col-8">
+                        <p>
+                            <span><a href="#"><button type="button" class="btn btn-primary">Sign Up Free</button></a></span>
+                            <span><a href="#"><button type="button" class="btn btn-outline-primary">Chat With Us</button></a></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <p><span>Already Using <b>Double</b>Tap?</span>&nbsp<span><b><a href="#">Sign In</a></b></span></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8 align-self-center">
+                        <p id="text-small-top-section"><span>Free 14 day trial</span>
+                            &nbsp&nbsp<span class="dot-blue"></span>
+                            &nbsp&nbsp<span>Manage Customers in Minutes</span>
+                            &nbsp&nbsp<span class="dot-blue"></span>
+                            &nbsp&nbsp<span>Cancel at Anytime</span></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Responsive:  Hides image on screens smaller than medium -->
+            <div class="col-4 d-none d-md-block">
+                <img src="./img/Header-Side.png" id="img-top-right">
+            </div>
+        </div>
+    </div>
+    
     <!--info above boxes-->
         <div class="explore">
             <br>
             <br>
-            <h3><center>Start to Exlpore Double Tap</center</h3>
+            <h3><center>Start to Explore DoubleTap</center</h3>
                 <h5><center>A new and better way for small business to manage their customer base, payments 
                     and keep track of internal tasks</center></h5>   
                 <br>
@@ -43,19 +113,22 @@
 
     <!--card section-->
 
-    <div class="card" style="width:70%; height:40%">
-        <img class="card-img-left" src="./images/credit-card.png" style="height:300px;width:600px;" alt="guy with card">
+    <div class="card" style="width:75%; height:40%">
+        <img class="card-img-left" src="./img/credit-card-picture.png" style="height:300px;width:600px;" alt="guy with card">
         <div class="card_body">
             <h4 class="card_title">Start accepting payments with Ease</h4>
-            <h5 class="card_subtitle">Deliver the world of payment options and seamless checkout experiences, making it wasy for your customers to pay you for your products and services</h5>
+            <br>
+            <h6 class="card_subtitle">Deliver the world of payment options and seamless checkout experiences, making it wasy for your customers to pay you for your products and services</h6>
+            <br>
             <ul>
                 <li>Accept credit & debit cards, Paypal, ACH, Apple pay and more with the flick of a switch</li>
                 <li>Process transactions in up to 32 different currencies</li>
                 <li>Integrate with popular payment gateways like Stripe and Braintree</li>
                 <li>Select from a variety of different checkout options and experiences</li>
             </ul>
+            <br>
         <div id="card_button">
-            <button type="submit">Learn More</button>
+            <span><a href="#"><button type="button" class="btn btn-light">Learn More</button></a></span>
         </div>
         </div>
     </div>
@@ -67,33 +140,59 @@
             <br>
             <br>
         </div>
-        <div class="container">
+        <div class="container text-center solutions-section">
             <div class="row">
                 <div class="col">
-                    <p>Email Dashboards</p>
+                    <p id="text-medium-solutions-section">Email Dashboards</p>
                     <p>Automate client responses, and keep track of any communication your team has with a client.</p>
-                    <button type="submit">Learn More</button>
+                    <span><a href="#"><button type="button" class="btn btn-outline-dark">Learn More</button></a></span>
                 </div>
                 <div class="col"> 
-                    <p>Task Management</p>
+                    <p id="text-medium-solutions-section">Task Management</p>
                     <p>Automate client responses, and keep track of any communication your team has with a client.</p>   
-                    <button type="submit">Learn More</button>
+                    <span><a href="#"><button type="button" class="btn btn-outline-dark">Learn More</button></a></span>
                 </div>
                 <div class="col"> 
-                    <p>Analytics</p>
+                    <p id="text-medium-solutions-section">Analytics</p>
                     <p>Automate client responses, and keep track of any communication your team has with a client.</p>   
-                    <button type="submit">Learn More</button>
+                    <span><a href="#"><button type="button" class="btn btn-outline-dark">Learn More</button></a></span>
                 </div>
                 <div class="col"> 
-                    <p>Project Calendars</p>
+                    <p id="text-medium-solutions-section">Project Calendars</p>
                     <p>Automate client responses, and keep track of any communication your team has with a client.</p>   
-                    <button type="submit">Learn More</button>
+                    <span><a href="#"><button type="button" class="btn btn-outline-dark">Learn More</button></a></span>
                 </div>
             </div>
         </div>
 
-
-    
+    <!-- Footer -->
+    <div class="container-fluid text-center">
+        <div class="row row-footer">
+            <div class="col-12">
+                <p id="text-large-footer">Try DoubleTap Today!</p>
+                <p>Let's Get Started</p>
+                <div class="row">
+                    <div class="col-12">
+                        <p>
+                            <span><a href="#"><button type="button" class="btn btn-success">Get Started</button></a></span>
+                            &nbsp&nbsp&nbsp&nbsp
+                            <span><a href="#"><button type="button" class="btn btn-light">Chat With Us</button></a></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 align-self-center">
+                        <p id="text-small-top-section"><span>Free 14 day trial</span>
+                            &nbsp&nbsp<span class="dot-white"></span>
+                            &nbsp&nbsp<span>Manage Customers in Minutes</span>
+                            &nbsp&nbsp<span class="dot-white"></span>
+                            &nbsp&nbsp<span>Cancel at Anytime</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>

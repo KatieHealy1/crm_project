@@ -1,3 +1,5 @@
+@import url("/how_it_works/css/main.css");
+
 .explore {
     padding-left: 20%;
     padding-right: 20%;
@@ -13,13 +15,13 @@
     width: fit-content;
 }
 
-button {
+/* button {
     height: 100px;
     width: 100px;
     text-align: center;
     display: inline-block; 
     background-color: whitesmoke;   
-}
+} */
 
 #payments-image{
     background-color: blue;
@@ -37,8 +39,26 @@ button {
     margin-bottom: 5%;
     margin-left: 20%;
     margin-right: 10%;
+    padding-bottom: 20px;
+}
+
+.card_body{
+    padding: 30px;
 }
 
 .card img{
     width: 60%;
+}
+
+.card-img-left{
+    background-color: white;
+}
+
+.solutions-section{
+    padding-bottom: 50px;
+}
+
+#text-medium-solutions-section{
+    font-size: 150%;
+    font-weight: 700;
 }
