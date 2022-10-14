@@ -8,6 +8,7 @@
 .container.fluid {
     display: grid;
     padding-bottom: 40%;
+    
 }
 
 .container{
@@ -26,7 +27,6 @@
 #payments-image{
     background-color: blue;
     color: white;
-    margin-left: 50%;
 }
 
 .card {
@@ -61,4 +61,19 @@
 #text-medium-solutions-section{
     font-size: 150%;
     font-weight: 700;
+}
+
+.icons {
+    width: 6vh;
+    height: auto;
+}
+
+.buttonicons {
+    width: 5vw;
+    height: 12vh;
+    border-radius: 16px;
+}
+
+.dollarsign {
+    background: white;
 }
