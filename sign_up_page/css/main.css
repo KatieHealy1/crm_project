@@ -1,67 +1,73 @@
 .grid-container1 {
     display: grid;
-    width: 40vw;
-    height: 75vh;
-    justify-content: center;
+    grid-template-columns: 40vw 60vw;
+    grid-template-rows: 50vh 50vh;
+    justify-content: end;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 50px;
     margin-bottom: 50px;
-    
 }
 
 h1 {
     margin: 75px;
     font-size: 60px;
+    font-weight: 650;
 }
 
 input {
-    border-radius: 24px;
+    border-radius: 30px;
     margin: 20px;
     width: 25vw;
     height: 60px;
+    margin-bottom: 40px;
+    border: 1px solid black;
 }
 
 .symbol1 {
-    padding-left: 60px;
-    background: url(/sign_up_page/img/Page-1.png) no-repeat left;
+    padding-left: 3vw;
+    background: url(/sign_up_page/img/Page-1.png) no-repeat;
     background-size: 20px;
+    background-position: 1.2vw;
 }
 
 .symbol2 {
-    padding-left: 30px;
-    background: url(/sign_up_page/img/Page-1.png) no-repeat left;
+    padding-left: 3vw;
+    background: url("https://www.freeiconspng.com/thumbs/envelope-icon/envelope-icon-14.png") no-repeat;
     background-size: 20px;
+    background-position: 1.2vw;
 }
 
 .symbol3 {
-    padding-left: 30px;
-    background: url(/sign_up_page/img/Page-1.png) no-repeat left;
+    padding-left: 3vw;
+    background: url("https://www.pngitem.com/pimgs/m/441-4415488_lock-icon-png-transparent-png.png") no-repeat;
     background-size: 20px;
+    background-position: 1.2vw;
 }
 
 button {
-    border-radius: 24px;
+    border-radius: 30px;
     margin-top: 40px;
     margin-bottom: 20px;
     width: 13vw;
     height: 60px;
+    background-color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border: none;
 }
 
-.grid-container2 {
-    display: grid;
-    width: 40vw;
-    height: 10vh;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    margin-left: 50px;
+p {
+    margin: 10px;
 }
 
 .flexbox-container {
     display: flex;
     width: 25vw;
-    justify-content: space-between;
+    justify-content: space-around;
+    translate: 1.2vw;
+    margin-top: 30px;
 }
 
 .flexbox-item {
@@ -79,13 +85,15 @@ a {
     color: black;
 }
 
-.flexbox-container2 {
-    display: flex;
-
+.grid-item-1 {
+    display: grid;
+    justify-content: end;
 }
 
-body {
+.grid-item-2 {
     background-image: url(/sign_up_page/img/Group\ 10.png);
-    background-position: 75% 90%;
     background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 5vh;
+    background-position-x: 3vw;
 }
