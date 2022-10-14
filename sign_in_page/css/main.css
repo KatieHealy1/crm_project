@@ -1,6 +1,6 @@
 .grid-container1 {
     display: grid;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     grid-template-columns: 55vw 45vw;
     grid-template-rows: 60vh 40vh;
     justify-content: end;
@@ -12,6 +12,7 @@
     height: 100vh;
     background-color: blue;
     color: white;
+    border-radius: 0% 100% 83% 17% / 98% 0% 100% 2%;
 }
 
 .button1 {
@@ -110,4 +111,9 @@ p {
 
 a {
     color: black;
+}
+
+.button1 a{
+    color: white;
+    text-decoration: none;
 }
